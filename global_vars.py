@@ -1,0 +1,9 @@
+crew_deal = 0.0
+vehicles_deal = 0
+s_a = 20.0
+s_b = 20.0
+base_s = 20.0
+cd_a = 5.0
+cd_b = 5.0
+vd_a = 20.0
+vd_b = 20.0
