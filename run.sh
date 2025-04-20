@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 检查并安装依赖
+pip3 install -r requirements.txt
+
 # 启动 data_fetcher.py 在后台运行，并丢弃其输出
 python3 data_fetcher.py > /dev/null 2>&1 &
 

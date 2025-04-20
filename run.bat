@@ -1,4 +1,7 @@
 @echo off
+REM 检查并安装依赖
+pip install -r requirements.txt
+
 REM 启动 data_fetcher.py 并将日志输出到 data_fetcher.log 文件
 start /B python data_fetcher.py > data_fetcher.log 2>&1
 
